@@ -1,0 +1,74 @@
+# SITE CONFIGURATION
+baseurl: "/blog/" 
+url: "http://rbrandty.github.io"
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Rachel Brandt
+  avatar:
+  gravatar: # Email MD5 hash
+  description: "Rachel Brandt" # used by search engines
+
+  # Header and footer text
+  header_text: >
+     <h1>Product Manager and Developer</h1>
+  header_text_feature_image:
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a>
+
+  # Icons
+  rss: false
+  email_address: "rachel.brandt@gmail.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook: "rbrandty"
+  flickr:
+  github: "rbrandty"
+  google_plus:
+  instagram: "rbrandty"
+  linkedin:  "https://www.linkedin.com/in/rachbrandt/"
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: "rbrandty"
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: "UA-100770175-1"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# COLLECTIONS
+collections:
+  portfolio:
+    output: true
+
+# BUILD SETTINGS
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+gems: [jekyll-paginate]
