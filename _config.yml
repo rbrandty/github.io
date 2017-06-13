@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/blog/" 
+baseurl: "" 
 url: "http://rbrandty.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
